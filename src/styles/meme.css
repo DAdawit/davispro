@@ -1,0 +1,36 @@
+.nav-bar {
+  padding: 20px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  background-image: linear-gradient(to right, #692281, #8e02b3);
+}
+main {
+  padding: 20px;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.form-button {
+  grid-column: 1 / -1;
+  height: 35px;
+  color: white;
+  border: none;
+  background-image: linear-gradient(to right, #692281, #bb58d6);
+}
+
+.form-input {
+  border: 3px solid #692281;
+  height: 35px;
+  border-radius: 10px;
+  text-indent: 5px;
+}
+
+.form-button:hover,
+.form-button:active {
+  font-weight: bold;
+}

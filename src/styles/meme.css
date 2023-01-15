@@ -34,3 +34,102 @@ main {
 .form-button:active {
   font-weight: bold;
 }
+
+.container {
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+}
+.counter {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.counter-button {
+  padding: 10px;
+}
+
+img {
+  display: block;
+}
+.meme-img {
+  width: 100%;
+}
+
+.img-container {
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 20px;
+}
+.is-going-out {
+  border: 2px solid #692281;
+  border-radius: 20px;
+  padding: 10px;
+  display: inline-block;
+}
+.ternery {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  width: 200px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  height: 350px;
+  box-shadow: 5px 5px 5px 1px rgba(120, 120, 120, 0.44);
+  -webkit-box-shadow: 5px 5px 5px 1px rgba(120, 120, 120, 0.44);
+  -moz-box-shadow: 5px 5px 5px 1px rgba(120, 120, 120, 0.44);
+}
+
+.card--image {
+  width: 100%;
+  padding: 10%;
+  padding-bottom: 0;
+}
+
+.card--name {
+  margin-block: 13px;
+  color: #333333;
+}
+
+.card--info {
+  padding: 10px;
+}
+
+.card--favorite {
+  width: 25px;
+  cursor: pointer;
+}
+
+.card--contact {
+  font-size: 0.75rem;
+  color: gray;
+  margin-block: 7px;
+}
+.counter {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  align-items: center;
+}
+.counter-buttons {
+  padding: 20px;
+  font-weight: bolder;
+  background-color: #8e02b3;
+  color: white;
+  border: none;
+}
+
+.box {
+  padding: 70px;
+  width: 70px;
+  border: 2px solid white;
+  display: inline-block;
+  margin-right: 10px;
+  border-radius: 10px;
+  color: yellow;
+}

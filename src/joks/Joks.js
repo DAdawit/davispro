@@ -1,10 +1,18 @@
+import React from "react";
 export default function Jokes(props) {
-  // console.log(props.Jokes);
+  const [isShown, setIshown] = React.useState(false);
+  function showSetup() {
+    setIshown((prevShown) => !prevShown);
+  }
   const JokesElement = props.Jokes.map((jokes) => {
     return (
       <div>
         {jokes.setup && <h3>setup: {jokes.setup}</h3>}
-        punchline : <p>{jokes.punchline}</p>
+        {isShown && <span>{jokes.punchline}</span>}
+        <br></br>
+        <button onClick={showSetup}>
+          {isShown ? "hide " : "show "} punchline
+        </button>
         <hr></hr>
       </div>
     );

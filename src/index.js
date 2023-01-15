@@ -28,12 +28,12 @@ const airbnbElement = aribnbData.map((data) => {
 root.render(
   <React.StrictMode>
     {/* <Nav /> */}
-    <Meme />
+    {/* <Meme /> */}
     {/* {airbnbElement} */}
     {/* <Hero /> */}
     {/* <Header /> */}
     {/* <Card /> */}
-    {/* <Jokes Jokes={jokesData} /> */}
+    <Jokes Jokes={jokesData} />
     <App />
   </React.StrictMode>
 );
